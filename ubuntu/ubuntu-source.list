@@ -1,0 +1,635 @@
+    骨头兄亲自搭建并维护的 Ubuntu 源（该源位于浙江杭州百兆共享宽带的电信机房)，包含 Deepin 等镜像： 
+
+deb http://ubuntu.srt.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://ubuntu.srt.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://ubuntu.srt.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://ubuntu.srt.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://ubuntu.srt.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ utopic-backports main restricted universe multiverse
+
+
+    网易163更新服务器（广东广州电信/联通千兆双线接入），包含其他开源镜像： 
+
+deb http://mirrors.163.com/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ utopic-backports main restricted universe multiverse
+
+    搜狐更新服务器（山东联通千兆接入，官方中国大陆地区镜像跳转至此） ，包含其他开源镜像： 
+
+deb http://mirrors.sohu.com/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ utopic-backports main restricted universe multiverse
+
+    阿里云更新服务器（北京万网/浙江杭州阿里云服务器双线接入），包含其他开源镜像： 
+
+deb http://mirrors.aliyun.com/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ utopic-backports main restricted universe multiverse
+
+    开源中国更新服务器（浙江杭州阿里云服务器），包含其他开源镜像： 
+
+(http 亦可替换为 ftp)
+
+deb http://mirrors.oschina.net/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.oschina.net/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.oschina.net/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.oschina.net/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.oschina.net/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.oschina.net/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.oschina.net/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.oschina.net/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.oschina.net/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.oschina.net/ubuntu/ utopic-backports main restricted universe multiverse
+
+    中国开源软件中心更新服务器（北京光环新网服务器），包含其他开源镜像： 
+
+deb http://mirrors.oss.org.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ utopic-backports main restricted universe multiverse
+
+    Linux运维派架设的更新服务器（北京阿里巴巴科技有限公司服务器），包含其他开源镜像： 
+
+（域名中的.cn可以替换为.com）
+
+deb http://mirrors.skyshe.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.skyshe.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.skyshe.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.skyshe.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.skyshe.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.skyshe.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.skyshe.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.skyshe.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.skyshe.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.skyshe.cn/ubuntu/ utopic-backports main restricted universe multiverse
+
+    北京首都在线科技股份有限公司 更新服务器，包含其他开源镜像： 
+
+deb http://mirrors.yun-idc.com/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.yun-idc.com/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.yun-idc.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.yun-idc.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.yun-idc.com/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.yun-idc.com/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.yun-idc.com/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.yun-idc.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.yun-idc.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.yun-idc.com/ubuntu/ utopic-backports main restricted universe multiverse
+
+
+    常州贝特康姆软件技术有限公司 更新服务器（江苏常州电信服务器），包含其他开源镜像。 
+
+        ( CN99域名 系 “常州市亚科技术有限公司” 所注册，但此公司与常州贝特康姆的法人代表和营业地址相同。所以本镜像实际即原 CN99。但现在 CN99镜像的域名已改为跳转至网易镜像）: 
+
+deb http://centos.bitcomm.cn/ubuntu utopic main restricted universe multiverse
+deb http://centos.bitcomm.cn/ubuntu utopic-security main restricted universe multiverse
+deb http://centos.bitcomm.cn/ubuntu utopic-updates main restricted universe multiverse
+deb http://centos.bitcomm.cn/ubuntu utopic-backports main restricted universe multiverse
+deb http://centos.bitcomm.cn/ubuntu utopic-proposed main restricted universe multiverse
+deb-src http://centos.bitcomm.cn/ubuntu utopic main restricted universe multiverse
+deb-src http://centos.bitcomm.cn/ubuntu utopic-security main restricted universe multiverse
+deb-src http://centos.bitcomm.cn/ubuntu utopic-updates main restricted universe multiverse
+deb-src http://centos.bitcomm.cn/ubuntu utopic-backports main restricted universe multiverse
+deb-src http://centos.bitcomm.cn/ubuntu utopic-proposed main restricted universe multiverse
+
+
+
+以下为有教育网接入的服务器（推荐教育网用户使用，部分非教育网用户也有可观的速度。教育网用户请优先使用IPv6地址。
+
+
+    中国科学技术大学更新服务器（位于合肥，千兆教育网接入，百兆电信/联通线路智能路由），由中科大 Linux 用户协会和中科大学网络信息中心维护，包含其他开源镜像，Deepin 官方服务器 实际亦指向此处： 
+
+deb http://debian.ustc.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://debian.ustc.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://debian.ustc.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://debian.ustc.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://debian.ustc.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://debian.ustc.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://debian.ustc.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://debian.ustc.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://debian.ustc.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://debian.ustc.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+        IPv6-Only 地址 
+
+deb http://mirrors6.ustc.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://mirrors6.ustc.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://mirrors6.ustc.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://mirrors6.ustc.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://mirrors6.ustc.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://mirrors6.ustc.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://mirrors6.ustc.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://mirrors6.ustc.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://mirrors6.ustc.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://mirrors6.ustc.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+
+    清华大学更新服务器，（教育网核心节点百兆接入，已计划提高到千兆）由清华大学学生网管会维护。包含其他开源镜像： 
+
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+        IPv4-Only 地址 
+
+deb http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+        IPv6-Only 地址 
+
+deb http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://mirrors.6.tuna.tsinghua.edu.cn//ubuntu/ utopic-security main multiverse restricted universe
+deb http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+
+    中国地质大学开源镜像站，由中国地质大学 Linux 爱好者维护。包含其他开源镜像， (校外限 IPv6 访问)： 
+
+deb http://mirrors.cug.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.cug.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+debhttp://mirrors.cug.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirrors.cug.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirrors.cug.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.cug.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.cug.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.cug.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.cug.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.cug.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+
+    北京交通大学更新服务器（教育网/电信百兆接入），由北京交通大学信息中心赞助，包含其他开源镜像。 
+
+        （域名中的 bjtu 可以替换为 njtu ，即北交旧名“北方交通大学”对应域名） ： 
+
+deb http://mirror.bjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+        IPv6-Only 地址 
+
+deb http://mirror6.bjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://mirror6.bjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://mirror6.bjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://mirror6.bjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://mirror6.bjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://mirror6.bjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://mirror6.bjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://mirror6.bjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://mirror6.bjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://mirror6.bjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+
+    北京理工大学更新服务器，包含其他开源镜像： 
+
+deb http://mirror.bit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirror.bit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirror.bit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirror.bit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirror.bit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirror.bit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirror.bit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirror.bit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirror.bit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirror.bit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+        IPv6-Only 地址 
+
+deb http://mirror.bit6.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirror.bit6.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirror.bit6.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirror.bit6.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirror.bit6.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirror.bit6.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirror.bit6.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirror.bit6.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirror.bit6.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirror.bit6.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+
+    北京化工大学更新服务器（仅教育网可以访问），包含其他开源镜像。 
+
+        IPv4-Only 地址 
+        （域名中的 buct.edu.cn 可以替换为 buct.cn ） ： 
+
+deb http://ubuntu.buct.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://ubuntu.buct.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://ubuntu.buct.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://ubuntu.buct.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://ubuntu.buct.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://ubuntu.buct.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://ubuntu.buct.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://ubuntu.buct.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://ubuntu.buct.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://ubuntu.buct.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+        IPv6-Only 地址 
+
+deb http://ubuntu.buct6.edu.cn/ utopic main multiverse restricted universe
+deb http://ubuntu.buct6.edu.cn/ utopic-backports main multiverse restricted universe
+deb http://ubuntu.buct6.edu.cn/ utopic-proposed main multiverse restricted universe
+deb http://ubuntu.buct6.edu.cn/ utopic-security main multiverse restricted universe
+deb http://ubuntu.buct6.edu.cn/ utopic-updates main multiverse restricted universe
+deb-src http://ubuntu.buct6.edu.cn/ utopic main multiverse restricted universe
+deb-src http://ubuntu.buct6.edu.cn/ utopic-backports main multiverse restricted universe
+deb-src http://ubuntu.buct6.edu.cn/ utopic-proposed main multiverse restricted universe
+deb-src http://ubuntu.buct6.edu.cn/ utopic-security main multiverse restricted universe
+deb-src http://ubuntu.buct6.edu.cn/ utopic-updates main multiverse restricted universe
+
+
+    天津大学更新服务器，由天津大学信息与网络协会和天津大学自由软件联盟维护，包含其他开源镜像 (校外限 IPv6 访问) 
+
+        （域名可以替换为 jx.tju.zyrj.org 或 jx6.tju.zyrj.org） 
+
+deb http://mirror.tju.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirror.tju.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirror.tju.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirror.tju.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://mirror.tju.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirror.tju.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirror.tju.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirror.tju.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirror.tju.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirror.tju.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+
+    山东理工大学更新服务器，包含其他开源镜像，限校内访问： 
+
+deb http://mirrors.sdutlinux.org/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.sdutlinux.org/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.sdutlinux.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.sdutlinux.org/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.sdutlinux.org/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.sdutlinux.org/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.sdutlinux.org/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.sdutlinux.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.sdutlinux.org/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.sdutlinux.org/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    东北大学更新服务器，包含其他开源镜像： 
+
+deb http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic main multiverse restricted universe
+deb http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-security main multiverse restricted universe
+deb http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic main multiverse restricted universe
+deb-src http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://ftp.neu.edu.cn/mirrors/ubuntu/ utopic-updates main multiverse restricted universe
+
+        IPv6-Only 地址 
+
+deb http://ftp.neu6.edu.cn/mirrors/ utopic main multiverse restricted universe
+deb http://ftp.neu6.edu.cn/mirrors/ utopic-backports main multiverse restricted universe
+deb http://ftp.neu6.edu.cn/mirrors/ utopic-proposed main multiverse restricted universe
+deb http://ftp.neu6.edu.cn/mirrors/ utopic-security main multiverse restricted universe
+deb http://ftp.neu6.edu.cn/mirrors/ utopic-updates main multiverse restricted universe
+deb-src http://ftp.neu6.edu.cn/mirrors/ utopic main multiverse restricted universe
+deb-src http://ftp.neu6.edu.cn/mirrors/ utopic-backports main multiverse restricted universe
+deb-src http://ftp.neu6.edu.cn/mirrors/ utopic-proposed main multiverse restricted universe
+deb-src http://ftp.neu6.edu.cn/mirrors/ utopic-security main multiverse restricted universe
+deb-src http://ftp.neu6.edu.cn/mirrors/ utopic-updates main multiverse restricted universe
+
+
+    哈尔滨工业大学更新服务器，包含其他开源镜像： 
+
+deb http://run.hit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://run.hit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://run.hit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://run.hit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://run.hit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://run.hit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://run.hit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://run.hit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://run.hit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://run.hit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+        IPv6-Only地址 
+
+deb http://run6.hit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://run6.hit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://run6.hit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://run6.hit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://run6.hit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://run6.hit.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://run6.hit.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://run6.hit.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://run6.hit.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://run6.hit.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+
+    大连理工大学更新服务器，包含其他开源镜像： 
+
+( IPv4/v6 Both )
+
+deb http://mirror.dlut.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirror.dlut.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirror.dlut.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://mirror.dlut.edu.cn/ubuntu/ubuntu utopic-backports main restricted universe multiverse
+deb http://mirror.dlut.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirror.dlut.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirror.dlut.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirror.dlut.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirror.dlut.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirror.dlut.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+
+    上海交通大学更新服务器（教育网千兆接入，联通/电信线路情况不详），包含其他开源镜像： 
+
+(http 亦可替换为 ftp))
+
+deb http://ftp.sjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+        IPv6-Only 地址 
+
+deb http://ftp6.sjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://ftp6.sjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://ftp6.sjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://ftp6.sjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://ftp6.sjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://ftp6.sjtu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://ftp6.sjtu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://ftp6.sjtu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://ftp6.sjtu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://ftp6.sjtu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+
+    江苏开放大学更新服务器，由江苏开放大学技术中心维护，包含其他开源镜像： 
+
+deb http://mirrors.jstvu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.jstvu.edu.cn/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.jstvu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.jstvu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.jstvu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.jstvu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.jstvu.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.jstvu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.jstvu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.jstvu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    南京师范大学更新服务器，包含其他开源镜像，限校内访问： 
+
+deb http://mirrors.njnu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.njnu.edu.cn/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.njnu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.njnu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.njnu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.njnu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.njnu.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.njnu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.njnu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.njnu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    浙江大学更新服务器，由浙江大学Linux用户组维护，包含其他开源镜像： 
+
+        （域名可以替换为mirrors.zju.edu.cn） 
+
+( IPv4/v6 Both )
+
+deb http://mirrors.zjustu.org/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.zjustu.org/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.zjustu.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.zjustu.org/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.zjustu.org/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.zjustu.org/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.zjustu.org/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.zjustu.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.zjustu.org/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.zjustu.org/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    华中科技大学更新服务器，由华中科技大学网络与计算中心维护，包含其他开源镜像： 
+
+deb http://mirrors.hust.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.hust.edu.cn/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.hust.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.hust.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.hust.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.hust.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.hust.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.hust.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.hust.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.hust.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    华中科大联创团队更新服务器，由华中科技大学启明学院 的联创团队维护，包含其他开源镜像： 
+
+deb http://mirrors.hustunique.com/ubuntu/ utopic main restricted universe multiverse
+deb http://mirrors.hustunique.com/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirrors.hustunique.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.hustunique.com/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirrors.hustunique.com/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.hustunique.com/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirrors.hustunique.com/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.hustunique.com/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.hustunique.com/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.hustunique.com/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    厦门大学更新服务器，由厦门大学信息与网络中心维护，包含其他开源镜像： 
+
+( IPv4/v6 Both )
+
+deb http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic main restricted universe multiverse
+deb http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-backports restricted universe multiverse
+deb http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-proposed main restricted universe multiverse
+deb http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-security main restricted universe multiverse
+deb http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-updates main restricted universe multiverse
+deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic main restricted universe multiverse
+deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-backports main restricted universe multiverse
+deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-proposed main restricted universe multiverse
+deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-security main restricted universe multiverse
+deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ utopic-updates main restricted universe multiverse
+
+    中山大学更新服务器，由中山大学网络与信息技术中心维护，包含其他开源镜像： 
+
+deb http://mirror.sysu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://mirror.sysu.edu.cn/ubuntu/ utopic-backports restricted universe multiverse
+deb http://mirror.sysu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://mirror.sysu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://mirror.sysu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://mirror.sysu.edu.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://mirror.sysu.edu.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://mirror.sysu.edu.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://mirror.sysu.edu.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://mirror.sysu.edu.cn/ubuntu/ utopic-updates main restricted universe multiverse
+
+    西南林业大学更新服务器，只包括当前稳定版和开发版，不包括 LTS 镜像。由西南林业大学计信学院维护。包括 Debian 镜像： 
+
+deb http://cs3.swfu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb http://cs3.swfu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb http://cs3.swfu.edu.cn/ubuntu/ utopic-proposed main multiverse restricted universe
+deb http://cs3.swfu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb http://cs3.swfu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+deb-src http://cs3.swfu.edu.cn/ubuntu/ utopic main multiverse restricted universe
+deb-src http://cs3.swfu.edu.cn/ubuntu/ utopic-backports main multiverse restricted universe
+deb-src http://cs3.swfu.edu.cnubuntu/ utopic-proposed main multiverse restricted universe
+deb-src http://cs3.swfu.edu.cn/ubuntu/ utopic-security main multiverse restricted universe
+deb-src http://cs3.swfu.edu.cn/ubuntu/ utopic-updates main multiverse restricted universe
+
+
+    电子科技大学（位于成都）更新服务器，由电子科技大学学生宿舍网络管理委员会维护，仅包含 Ubuntu 镜像： 
+
+deb http://ubuntu.dormforce.net/ubuntu/ utopic main restricted universe multiverse
+deb http://ubuntu.dormforce.net/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://ubuntu.dormforce.net/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://ubuntu.dormforce.net/ubuntu/ utopic-security main restricted universe multiverse
+deb http://ubuntu.dormforce.net/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.dormforce.net/ubuntu/ utopic main restricted universe multiverse
+deb-src http://ubuntu.dormforce.net/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.dormforce.net/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.dormforce.net/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://ubuntu.dormforce.net/ubuntu/ utopic-updates main restricted universe multiverse
+
+    电子科技大学另一更新服务器，由电子科大凝聚网络安全工作室维护，包含 Ubuntu 和 Raspian镜像，以及 Linux Deepin镜像： 
+
+deb http://ubuntu.cnssuestc.org/ubuntu/ utopic main restricted universe multiverse
+deb http://ubuntu.cnssuestc.org/ubuntu/ utopic-backports main restricted universe multiverse
+deb http://ubuntu.cnssuestc.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb http://ubuntu.cnssuestc.org/ubuntu/ utopic-security main restricted universe multiverse
+deb http://ubuntu.cnssuestc.org/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.cnssuestc.org/ubuntu/ utopic main restricted universe multiverse
+deb-src http://ubuntu.cnssuestc.org/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.cnssuestc.org/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.cnssuestc.org/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://ubuntu.cnssuestc.org/ubuntu/ utopic-updates main restricted universe multiverse
+
+
+    西安交通大学更新服务器，由西安交通大学众享社维护，包含其他开源镜像： 
+
+deb http://ubuntu.xjtuns.cn/ubuntu/ utopic main restricted universe multiverse
+deb http://ubuntu.xjtuns.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb http://ubuntu.xjtuns.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb http://ubuntu.xjtuns.cn/ubuntu/ubuntu utopic-backports main restricted universe multiverse
+deb http://ubuntu.xjtuns.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.xjtuns.cn/ubuntu/ utopic main restricted universe multiverse
+deb-src http://ubuntu.xjtuns.cn/ubuntu/ utopic-security main restricted universe multiverse
+deb-src http://ubuntu.xjtuns.cn/ubuntu/ utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.xjtuns.cn/ubuntu/ utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.xjtuns.cn/ubuntu/ utopic-proposed main restricted universe multiverse
+
+以下为大陆地区外的源
+
+香港中文大学更新服务器，由香港中文大学资讯科技服务处维护，包含其他开源镜像：
+
+deb http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic main restricted universe multiverse
+deb http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-security main restricted universe multiverse
+deb http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-updates main restricted universe multiverse
+deb http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-backports main restricted universe multiverse
+deb http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-proposed main restricted universe multiverse
+deb-src http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic main restricted universe multiverse
+deb-src http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-security main restricted universe multiverse
+deb-src http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-updates main restricted universe multiverse
+deb-src http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-backports main restricted universe multiverse
+deb-src http://ftp.cuhk.edu.hk/pub/Linux/ubuntu utopic-proposed main restricted universe
+
+香港 01link 更新服务器，由香港联达网络服务有限公司维护：
+
+deb http://ubuntu.01link.hk utopic main restricted universe multiverse
+deb http://ubuntu.01link.hk utopic-security main restricted universe multiverse
+deb http://ubuntu.01link.hk utopic-updates main restricted universe multiverse
+deb http://ubuntu.01link.hk utopic-backports main restricted universe multiverse
+deb http://ubuntu.01link.hk utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.01link.hk utopic main restricted universe multiverse
+deb-src http://ubuntu.01link.hk utopic-security main restricted universe multiverse
+deb-src http://ubuntu.01link.hk utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.01link.hk utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.01link.hk utopic-proposed main restricted universe
+
+香港 uhost 更新服务器，由香港互联科技有限公司维护：
+
+deb http://ubuntu.uhost.hk utopic main restricted universe multiverse
+deb http://ubuntu.uhost.hk utopic-security main restricted universe multiverse
+deb http://ubuntu.uhost.hk utopic-updates main restricted universe multiverse
+deb http://ubuntu.uhost.hk utopic-backports main restricted universe multiverse
+deb http://ubuntu.uhost.hk utopic-proposed main restricted universe multiverse
+deb-src http://ubuntu.uhost.hk utopic main restricted universe multiverse
+deb-src http://ubuntu.uhost.hk utopic-security main restricted universe multiverse
+deb-src http://ubuntu.uhost.hk utopic-updates main restricted universe multiverse
+deb-src http://ubuntu.uhost.hk utopic-backports main restricted universe multiverse
+deb-src http://ubuntu.uhost.hk utopic-proposed main restricted universe
+
+台湾的官方源。速度有时甚至快于内地的，包含 Debian 等其他镜像：
+
+deb http://tw.archive.ubuntu.com/ubuntu utopic main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu utopic-security main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu utopic-updates main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu utopic-backports main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu utopic-proposed main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu utopic main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu utopic-security main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu utopic-updates main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu utopic-backports main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu utopic-proposed main restricted universe multiverse
